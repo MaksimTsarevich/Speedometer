@@ -1,0 +1,16 @@
+PODS:
+  - DynamicColor (5.0.1)
+
+DEPENDENCIES:
+  - DynamicColor (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - DynamicColor
+
+SPEC CHECKSUMS:
+  DynamicColor: d049834ef86d8ecf150b0ca1ebe54ee733a0ec22
+
+PODFILE CHECKSUM: df49fbdac593e42965eb4dcc584ebc5d38212162
+
+COCOAPODS: 1.10.1

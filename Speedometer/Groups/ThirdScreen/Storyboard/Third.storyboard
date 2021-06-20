@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Uz-f0-9nk">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Third View Controller-->
+        <scene sceneID="BQs-bI-lUh">
+            <objects>
+                <viewController id="6Uz-f0-9nk" customClass="ThirdViewController" customModule="Speedometer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LiS-wQ-KPP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VRU-eG-cDj">
+                                <rect key="frame" x="25" y="191.5" width="364" height="71"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="7ou-S8-NpE"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="m/s"/>
+                                    <segment title="km/h"/>
+                                    <segment title="miles/h"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentsettings:" destination="6Uz-f0-9nk" eventType="valueChanged" id="F1l-LI-rJd"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SETTINGS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHX-u9-TFS">
+                                <rect key="frame" x="15" y="101" width="384" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="f8d-lT-960"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <color key="textColor" red="0.86224902849999996" green="0.78258821180000004" blue="0.55443046539999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SGj-lM-CTN"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SGj-lM-CTN" firstAttribute="trailing" secondItem="VRU-eG-cDj" secondAttribute="trailing" constant="25" id="4TV-2E-O1b"/>
+                            <constraint firstItem="VHX-u9-TFS" firstAttribute="centerX" secondItem="SGj-lM-CTN" secondAttribute="centerX" id="EG0-Mj-add"/>
+                            <constraint firstItem="SGj-lM-CTN" firstAttribute="trailing" secondItem="VHX-u9-TFS" secondAttribute="trailing" constant="15" id="F98-1Q-68o"/>
+                            <constraint firstItem="VHX-u9-TFS" firstAttribute="leading" secondItem="SGj-lM-CTN" secondAttribute="leading" constant="15" id="Fla-Uh-fik"/>
+                            <constraint firstItem="VRU-eG-cDj" firstAttribute="centerX" secondItem="SGj-lM-CTN" secondAttribute="centerX" id="UQc-OY-Y0C"/>
+                            <constraint firstItem="VRU-eG-cDj" firstAttribute="leading" secondItem="SGj-lM-CTN" secondAttribute="leading" constant="25" id="lHc-g1-RpO"/>
+                            <constraint firstItem="VHX-u9-TFS" firstAttribute="centerY" secondItem="SGj-lM-CTN" secondAttribute="centerY" multiplier="0.3" id="u8x-xn-uon"/>
+                            <constraint firstItem="VRU-eG-cDj" firstAttribute="centerY" secondItem="SGj-lM-CTN" secondAttribute="centerY" multiplier="0.5" id="vAS-zv-VQO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhu-ac-wMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="155.07246376811597" y="35.491071428571423"/>
+        </scene>
+    </scenes>
+</document>

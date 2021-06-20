@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C8E426D260A7D6700FECDBC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E426C260A7D6700FECDBC /* Settings.swift */; };
+		1C8E4272260A847700FECDBC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1C8E4271260A847700FECDBC /* Realm */; };
+		1C8E4274260A847700FECDBC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1C8E4273260A847700FECDBC /* RealmSwift */; };
+		1CC972402677856A00D48F38 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9723F2677856A00D48F38 /* RecordModel.swift */; };
+		1CFD628E258A7BC400135793 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD628D258A7BC400135793 /* FirstTableViewCell.swift */; };
+		B645F12C25894BFC0086C6CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645F12B25894BFC0086C6CF /* AppDelegate.swift */; };
+		B645F13525894C000086C6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B645F13425894C000086C6CF /* Assets.xcassets */; };
+		B645F13825894C000086C6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B645F13625894C000086C6CF /* LaunchScreen.storyboard */; };
+		B645F14225894D340086C6CF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645F14125894D340086C6CF /* TabBarViewController.swift */; };
+		B645F14D2589566A0086C6CF /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B645F14C2589566A0086C6CF /* First.storyboard */; };
+		B645F14F2589567B0086C6CF /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B645F14E2589567B0086C6CF /* Second.storyboard */; };
+		B645F1512589568D0086C6CF /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B645F1502589568D0086C6CF /* Third.storyboard */; };
+		B645F153258956A40086C6CF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645F152258956A40086C6CF /* FirstViewController.swift */; };
+		B645F155258956C60086C6CF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645F154258956C60086C6CF /* SecondViewController.swift */; };
+		B645F157258956DE0086C6CF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645F156258956DE0086C6CF /* ThirdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C8E426C260A7D6700FECDBC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1CC9723F2677856A00D48F38 /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		1CFD628D258A7BC400135793 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		B645F12825894BFC0086C6CF /* Speedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B645F12B25894BFC0086C6CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B645F13425894C000086C6CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B645F13725894C000086C6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B645F13925894C000086C6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B645F14125894D340086C6CF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B645F14C2589566A0086C6CF /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		B645F14E2589567B0086C6CF /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		B645F1502589568D0086C6CF /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
+		B645F152258956A40086C6CF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B645F154258956C60086C6CF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B645F156258956DE0086C6CF /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B645F12525894BFC0086C6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8E4274260A847700FECDBC /* RealmSwift in Frameworks */,
+				1C8E4272260A847700FECDBC /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8E426A260A7CFF00FECDBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C8E426C260A7D6700FECDBC /* Settings.swift */,
+				1CC9723F2677856A00D48F38 /* RecordModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CFD628C258A7BB500135793 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD628D258A7BC400135793 /* FirstTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B645F11F25894BFC0086C6CF = {
+			isa = PBXGroup;
+			children = (
+				B645F12A25894BFC0086C6CF /* Speedometer */,
+				B645F12925894BFC0086C6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B645F12925894BFC0086C6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B645F12825894BFC0086C6CF /* Speedometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B645F12A25894BFC0086C6CF /* Speedometer */ = {
+			isa = PBXGroup;
+			children = (
+				B645F13F25894CEB0086C6CF /* Groups */,
+				B645F12B25894BFC0086C6CF /* AppDelegate.swift */,
+				B645F13425894C000086C6CF /* Assets.xcassets */,
+				B645F13625894C000086C6CF /* LaunchScreen.storyboard */,
+				B645F13925894C000086C6CF /* Info.plist */,
+			);
+			path = Speedometer;
+			sourceTree = "<group>";
+		};
+		B645F13F25894CEB0086C6CF /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				1C8E426A260A7CFF00FECDBC /* Models */,
+				B645F143258955960086C6CF /* FirstScreen */,
+				B645F144258955AA0086C6CF /* SecondScreen */,
+				B645F145258955BC0086C6CF /* ThirdScreen */,
+				B645F14025894CF40086C6CF /* TabBar */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		B645F14025894CF40086C6CF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B645F14125894D340086C6CF /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B645F143258955960086C6CF /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B645F147258955EA0086C6CF /* Storyboard */,
+				B645F146258955DD0086C6CF /* ViewController */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		B645F144258955AA0086C6CF /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD628C258A7BB500135793 /* Cell */,
+				B645F149258956180086C6CF /* Storyboard */,
+				B645F148258956030086C6CF /* ViewController */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		B645F145258955BC0086C6CF /* ThirdScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B645F14B258956310086C6CF /* Storyboard */,
+				B645F14A258956260086C6CF /* ViewController */,
+			);
+			path = ThirdScreen;
+			sourceTree = "<group>";
+		};
+		B645F146258955DD0086C6CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B645F152258956A40086C6CF /* FirstViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B645F147258955EA0086C6CF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B645F14C2589566A0086C6CF /* First.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B645F148258956030086C6CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B645F154258956C60086C6CF /* SecondViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B645F149258956180086C6CF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B645F14E2589567B0086C6CF /* Second.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B645F14A258956260086C6CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B645F156258956DE0086C6CF /* ThirdViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B645F14B258956310086C6CF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B645F1502589568D0086C6CF /* Third.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B645F12725894BFC0086C6CF /* Speedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B645F13C25894C000086C6CF /* Build configuration list for PBXNativeTarget "Speedometer" */;
+			buildPhases = (
+				B645F12425894BFC0086C6CF /* Sources */,
+				B645F12525894BFC0086C6CF /* Frameworks */,
+				B645F12625894BFC0086C6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speedometer;
+			packageProductDependencies = (
+				1C8E4271260A847700FECDBC /* Realm */,
+				1C8E4273260A847700FECDBC /* RealmSwift */,
+			);
+			productName = Speedometer;
+			productReference = B645F12825894BFC0086C6CF /* Speedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B645F12025894BFC0086C6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = denby;
+				TargetAttributes = {
+					B645F12725894BFC0086C6CF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B645F12325894BFC0086C6CF /* Build configuration list for PBXProject "Speedometer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B645F11F25894BFC0086C6CF;
+			packageReferences = (
+				1C8E4270260A847700FECDBC /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = B645F12925894BFC0086C6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B645F12725894BFC0086C6CF /* Speedometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B645F12625894BFC0086C6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B645F13825894C000086C6CF /* LaunchScreen.storyboard in Resources */,
+				B645F13525894C000086C6CF /* Assets.xcassets in Resources */,
+				B645F14F2589567B0086C6CF /* Second.storyboard in Resources */,
+				B645F1512589568D0086C6CF /* Third.storyboard in Resources */,
+				B645F14D2589566A0086C6CF /* First.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B645F12425894BFC0086C6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFD628E258A7BC400135793 /* FirstTableViewCell.swift in Sources */,
+				B645F155258956C60086C6CF /* SecondViewController.swift in Sources */,
+				B645F153258956A40086C6CF /* FirstViewController.swift in Sources */,
+				B645F157258956DE0086C6CF /* ThirdViewController.swift in Sources */,
+				1CC972402677856A00D48F38 /* RecordModel.swift in Sources */,
+				1C8E426D260A7D6700FECDBC /* Settings.swift in Sources */,
+				B645F14225894D340086C6CF /* TabBarViewController.swift in Sources */,
+				B645F12C25894BFC0086C6CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B645F13625894C000086C6CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B645F13725894C000086C6CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B645F13A25894C000086C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B645F13B25894C000086C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B645F13D25894C000086C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAGPQYZQX3;
+				INFOPLIST_FILE = Speedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.Speedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B645F13E25894C000086C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAGPQYZQX3;
+				INFOPLIST_FILE = Speedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.Speedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B645F12325894BFC0086C6CF /* Build configuration list for PBXProject "Speedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B645F13A25894C000086C6CF /* Debug */,
+				B645F13B25894C000086C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B645F13C25894C000086C6CF /* Build configuration list for PBXNativeTarget "Speedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B645F13D25894C000086C6CF /* Debug */,
+				B645F13E25894C000086C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C8E4270260A847700FECDBC /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C8E4271260A847700FECDBC /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C8E4270260A847700FECDBC /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		1C8E4273260A847700FECDBC /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C8E4270260A847700FECDBC /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B645F12025894BFC0086C6CF /* Project object */;
+}
